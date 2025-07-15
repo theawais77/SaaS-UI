@@ -1,7 +1,4 @@
-
 import { Skeleton } from "@/components/ui/skeleton"
-
-
 function HomePage() {
   return (
     <div className="w-full h-screen flex items-center justify-center bg-zinc-900">

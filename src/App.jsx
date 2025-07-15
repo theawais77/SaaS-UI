@@ -1,8 +1,3 @@
-import React from 'react'
-import LoginPage from './components/LoginPage'
-import Footer from './components/Footer'
-import RegisterPage from './components/Register'
-import HomePage from './components/HomePage'
 
 function App() {
   return (
@@ -10,7 +5,7 @@ function App() {
     {/* <LoginPage />   
      <RegisterPage />  
      <Footer /> */}
-    <HomePage />
+   
       
     </>
   )
