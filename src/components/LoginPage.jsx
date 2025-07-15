@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 const LoginPage = () => {
   const [email, setEmail] = useState("");
@@ -123,7 +124,7 @@ const LoginPage = () => {
                     type="button"
                     className="text-sm text-purple-600 hover:text-purple-800"
                   >
-                    Recover Password
+                   <Link to="/auth/forgot-password">Recover Password</Link> 
                   </button>
                 </div>
 
@@ -141,7 +142,7 @@ const LoginPage = () => {
                     type="button"
                     className="text-yellow-500 hover:text-yellow-600 font-semibold transition-colors"
                   >
-                    Register Now!
+                   <Link to="/auth/register"> Register Now! </Link> 
                   </button>
                 </div>
               </>
