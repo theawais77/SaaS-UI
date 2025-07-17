@@ -90,7 +90,7 @@ const LoginPage = () => {
       <div className="md:flex md:w-1/2 bg-gradient-to-br from-blue-50 to-purple-50 items-center justify-center p-4 lg:p-12">
         <div className="relative max-w-md w-full">
           <img
-            src="/src/assets/images/spaceship.png"
+            src="/spaceship.png"
             alt="Space illustration"
             className="w-full h-auto object-contain"
           />
